@@ -1,7 +1,12 @@
 aid: vivodyne
 name: Vivodyne
-description: Vivodyne is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Vivodyne is a bio-AI company working to make human biology computable through large-scale
+  human tissue engineering. Its TissueDisk platform cultivates hundreds of self-assembling, vascularized
+  human tissues on a single microfluidic disk, and its autonomous HIVE robotic labs cultivate, perturb,
+  and analyze thousands of tissues to generate multi-modal phenomic, transcriptomic, and proteomic data
+  at single-cell resolution for pharmaceutical drug discovery and AI model training. The company operates
+  as a B2B partner to pharma and does not publish a public developer API; this profile tracks its public
+  web surface within the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/vivodyne/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,29 @@ x-backed-by:
 - khosla-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6a45b979f9fdb5736de79d49/6a515dd13e092c07bd2c3433_Opengraph.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Drug Discovery
+- Artificial Intelligence
+- Lab Automation
+- Organ-on-a-Chip
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vivodyne-domain-security.yml
 - type: Website
   url: https://www.vivodyne.com/
+- type: Blog
+  url: https://www.vivodyne.com/blog
+- type: PrivacyPolicy
+  url: https://www.vivodyne.com/privacy
+- type: Support
+  url: https://www.vivodyne.com/contact
+- type: Careers
+  url: https://job-boards.greenhouse.io/vivodyne/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
